@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+@import '_variables';
+@import '_components';
+@import 'header';
+@import '_navbar';
+@import '_events';
+@import '_explore';
+@import '_tours';
+@import '_footer';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: $body-color;
+    overflow-x: hidden;
+}
+.menu-btn{
+    display: none;
+}
